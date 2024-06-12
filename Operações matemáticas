@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    //operações matematicas
+    inteiro valor1,valor2
+
+    escreva("Digite o valor 1: ")
+    leia(valor1)
+    escreva("Digite o valor 2: ")
+    leia(valor2)
+
+    escreva("O resultado das 4 operações: ")
+    escreva("\nSoma: ", valor1 + valor2)
+    escreva("\Subtração: ", valor1 - valor2)
+    escreva("n\Multiplicação: ", valor1 * valor2)
+    escreva("\Divisão: ", valor1 / valor2)
+    
+  }
+}
